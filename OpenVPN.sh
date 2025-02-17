@@ -2,11 +2,11 @@
 #Script Instalación servicio OpenVPN
 sudo apt install openvpn -y
 
-wget -O ca.crt https://raw.githubusercontent.com/PauAlumnesS2I/sxi-ci-grup3/refs/heads/main/ca.crt
-wget -O usuario1.crt https://raw.githubusercontent.com/PauAlumnesS2I/sxi-ci-grup3/refs/heads/main/usuario1.crt
-wget -O usuario1.key https://raw.githubusercontent.com/PauAlumnesS2I/sxi-ci-grup3/refs/heads/main/usuario1.key
-wget -O ta.key https://raw.githubusercontent.com/PauAlumnesS2I/sxi-ci-grup3/refs/heads/main/ta.key
-wget -O client.conf https://raw.githubusercontent.com/PauAlumnesS2I/sxi-ci-grup3/refs/heads/main/client.conf
+wget -O ca.crt https://raw.githubusercontent.com/MarcosIFC31/Script-DNS/refs/heads/main/ca.crt
+wget -O usuario1.crt https://raw.githubusercontent.com/MarcosIFC31/Script-DNS/refs/heads/main/usuario.crt
+wget -O usuario1.key https://raw.githubusercontent.com/MarcosIFC31/Script-DNS/refs/heads/main/usuario.key
+wget -O ta.key https://raw.githubusercontent.com/MarcosIFC31/Script-DNS/refs/heads/main/ta.key
+wget -O client.conf https://raw.githubusercontent.com/MarcosIFC31/Script-DNS/refs/heads/main/client.conf
 
 mv *.key /etc/openvpn/
 mv *.crt /etc/openvpn/
